@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40FF292E1CE0E30700D4C026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF292D1CE0E30700D4C026 /* main.m */; };
+		40FF29311CE0E30700D4C026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29301CE0E30700D4C026 /* AppDelegate.m */; };
+		40FF29341CE0E30800D4C026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29331CE0E30800D4C026 /* ViewController.m */; };
+		40FF29371CE0E30800D4C026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FF29351CE0E30800D4C026 /* Main.storyboard */; };
+		40FF29391CE0E30800D4C026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FF29381CE0E30800D4C026 /* Assets.xcassets */; };
+		40FF293C1CE0E30800D4C026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FF293A1CE0E30800D4C026 /* LaunchScreen.storyboard */; };
+		40FF29471CE0E30800D4C026 /* _PlayerMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29461CE0E30800D4C026 /* _PlayerMathTests.m */; };
+		40FF29521CE0E30800D4C026 /* _PlayerMathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29511CE0E30800D4C026 /* _PlayerMathUITests.m */; };
+		40FF29611CE0E80D00D4C026 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29601CE0E80D00D4C026 /* Player.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40FF29431CE0E30800D4C026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FF29211CE0E30700D4C026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FF29281CE0E30700D4C026;
+			remoteInfo = 2PlayerMath;
+		};
+		40FF294E1CE0E30800D4C026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FF29211CE0E30700D4C026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FF29281CE0E30700D4C026;
+			remoteInfo = 2PlayerMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40FF29291CE0E30700D4C026 /* 2PlayerMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2PlayerMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FF292D1CE0E30700D4C026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40FF292F1CE0E30700D4C026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40FF29301CE0E30700D4C026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40FF29321CE0E30700D4C026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40FF29331CE0E30800D4C026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40FF29361CE0E30800D4C026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40FF29381CE0E30800D4C026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40FF293B1CE0E30800D4C026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40FF293D1CE0E30800D4C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FF29421CE0E30800D4C026 /* 2PlayerMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2PlayerMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FF29461CE0E30800D4C026 /* _PlayerMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _PlayerMathTests.m; sourceTree = "<group>"; };
+		40FF29481CE0E30800D4C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FF294D1CE0E30800D4C026 /* 2PlayerMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2PlayerMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FF29511CE0E30800D4C026 /* _PlayerMathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _PlayerMathUITests.m; sourceTree = "<group>"; };
+		40FF29531CE0E30800D4C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FF295F1CE0E80D00D4C026 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		40FF29601CE0E80D00D4C026 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40FF29261CE0E30700D4C026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF293F1CE0E30800D4C026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF294A1CE0E30800D4C026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FF29201CE0E30700D4C026 = {
+			isa = PBXGroup;
+			children = (
+				40FF292B1CE0E30700D4C026 /* 2PlayerMath */,
+				40FF29451CE0E30800D4C026 /* 2PlayerMathTests */,
+				40FF29501CE0E30800D4C026 /* 2PlayerMathUITests */,
+				40FF292A1CE0E30700D4C026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40FF292A1CE0E30700D4C026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FF29291CE0E30700D4C026 /* 2PlayerMath.app */,
+				40FF29421CE0E30800D4C026 /* 2PlayerMathTests.xctest */,
+				40FF294D1CE0E30800D4C026 /* 2PlayerMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40FF292B1CE0E30700D4C026 /* 2PlayerMath */ = {
+			isa = PBXGroup;
+			children = (
+				40FF292F1CE0E30700D4C026 /* AppDelegate.h */,
+				40FF295F1CE0E80D00D4C026 /* Player.h */,
+				40FF29601CE0E80D00D4C026 /* Player.m */,
+				40FF29301CE0E30700D4C026 /* AppDelegate.m */,
+				40FF29321CE0E30700D4C026 /* ViewController.h */,
+				40FF29331CE0E30800D4C026 /* ViewController.m */,
+				40FF29351CE0E30800D4C026 /* Main.storyboard */,
+				40FF29381CE0E30800D4C026 /* Assets.xcassets */,
+				40FF293A1CE0E30800D4C026 /* LaunchScreen.storyboard */,
+				40FF293D1CE0E30800D4C026 /* Info.plist */,
+				40FF292C1CE0E30700D4C026 /* Supporting Files */,
+			);
+			path = 2PlayerMath;
+			sourceTree = "<group>";
+		};
+		40FF292C1CE0E30700D4C026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FF292D1CE0E30700D4C026 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40FF29451CE0E30800D4C026 /* 2PlayerMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				40FF29461CE0E30800D4C026 /* _PlayerMathTests.m */,
+				40FF29481CE0E30800D4C026 /* Info.plist */,
+			);
+			path = 2PlayerMathTests;
+			sourceTree = "<group>";
+		};
+		40FF29501CE0E30800D4C026 /* 2PlayerMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40FF29511CE0E30800D4C026 /* _PlayerMathUITests.m */,
+				40FF29531CE0E30800D4C026 /* Info.plist */,
+			);
+			path = 2PlayerMathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40FF29281CE0E30700D4C026 /* 2PlayerMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FF29561CE0E30800D4C026 /* Build configuration list for PBXNativeTarget "2PlayerMath" */;
+			buildPhases = (
+				40FF29251CE0E30700D4C026 /* Sources */,
+				40FF29261CE0E30700D4C026 /* Frameworks */,
+				40FF29271CE0E30700D4C026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2PlayerMath;
+			productName = 2PlayerMath;
+			productReference = 40FF29291CE0E30700D4C026 /* 2PlayerMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40FF29411CE0E30800D4C026 /* 2PlayerMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FF29591CE0E30800D4C026 /* Build configuration list for PBXNativeTarget "2PlayerMathTests" */;
+			buildPhases = (
+				40FF293E1CE0E30800D4C026 /* Sources */,
+				40FF293F1CE0E30800D4C026 /* Frameworks */,
+				40FF29401CE0E30800D4C026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FF29441CE0E30800D4C026 /* PBXTargetDependency */,
+			);
+			name = 2PlayerMathTests;
+			productName = 2PlayerMathTests;
+			productReference = 40FF29421CE0E30800D4C026 /* 2PlayerMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40FF294C1CE0E30800D4C026 /* 2PlayerMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FF295C1CE0E30800D4C026 /* Build configuration list for PBXNativeTarget "2PlayerMathUITests" */;
+			buildPhases = (
+				40FF29491CE0E30800D4C026 /* Sources */,
+				40FF294A1CE0E30800D4C026 /* Frameworks */,
+				40FF294B1CE0E30800D4C026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FF294F1CE0E30800D4C026 /* PBXTargetDependency */,
+			);
+			name = 2PlayerMathUITests;
+			productName = 2PlayerMathUITests;
+			productReference = 40FF294D1CE0E30800D4C026 /* 2PlayerMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FF29211CE0E30700D4C026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Krzysztof Kopytek";
+				TargetAttributes = {
+					40FF29281CE0E30700D4C026 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					40FF29411CE0E30800D4C026 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 40FF29281CE0E30700D4C026;
+					};
+					40FF294C1CE0E30800D4C026 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 40FF29281CE0E30700D4C026;
+					};
+				};
+			};
+			buildConfigurationList = 40FF29241CE0E30700D4C026 /* Build configuration list for PBXProject "2PlayerMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40FF29201CE0E30700D4C026;
+			productRefGroup = 40FF292A1CE0E30700D4C026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40FF29281CE0E30700D4C026 /* 2PlayerMath */,
+				40FF29411CE0E30800D4C026 /* 2PlayerMathTests */,
+				40FF294C1CE0E30800D4C026 /* 2PlayerMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40FF29271CE0E30700D4C026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FF293C1CE0E30800D4C026 /* LaunchScreen.storyboard in Resources */,
+				40FF29391CE0E30800D4C026 /* Assets.xcassets in Resources */,
+				40FF29371CE0E30800D4C026 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF29401CE0E30800D4C026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF294B1CE0E30800D4C026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40FF29251CE0E30700D4C026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FF29611CE0E80D00D4C026 /* Player.m in Sources */,
+				40FF29341CE0E30800D4C026 /* ViewController.m in Sources */,
+				40FF29311CE0E30700D4C026 /* AppDelegate.m in Sources */,
+				40FF292E1CE0E30700D4C026 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF293E1CE0E30800D4C026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FF29471CE0E30800D4C026 /* _PlayerMathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF29491CE0E30800D4C026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FF29521CE0E30800D4C026 /* _PlayerMathUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40FF29441CE0E30800D4C026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40FF29281CE0E30700D4C026 /* 2PlayerMath */;
+			targetProxy = 40FF29431CE0E30800D4C026 /* PBXContainerItemProxy */;
+		};
+		40FF294F1CE0E30800D4C026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40FF29281CE0E30700D4C026 /* 2PlayerMath */;
+			targetProxy = 40FF294E1CE0E30800D4C026 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40FF29351CE0E30800D4C026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FF29361CE0E30800D4C026 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40FF293A1CE0E30800D4C026 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FF293B1CE0E30800D4C026 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40FF29541CE0E30800D4C026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40FF29551CE0E30800D4C026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40FF29571CE0E30800D4C026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2PlayerMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kopytek.-PlayerMath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40FF29581CE0E30800D4C026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2PlayerMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kopytek.-PlayerMath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40FF295A1CE0E30800D4C026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 2PlayerMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kopytek.-PlayerMathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2PlayerMath.app/2PlayerMath";
+			};
+			name = Debug;
+		};
+		40FF295B1CE0E30800D4C026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 2PlayerMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kopytek.-PlayerMathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2PlayerMath.app/2PlayerMath";
+			};
+			name = Release;
+		};
+		40FF295D1CE0E30800D4C026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 2PlayerMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kopytek.-PlayerMathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 2PlayerMath;
+			};
+			name = Debug;
+		};
+		40FF295E1CE0E30800D4C026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 2PlayerMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.kopytek.-PlayerMathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 2PlayerMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40FF29241CE0E30700D4C026 /* Build configuration list for PBXProject "2PlayerMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FF29541CE0E30800D4C026 /* Debug */,
+				40FF29551CE0E30800D4C026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FF29561CE0E30800D4C026 /* Build configuration list for PBXNativeTarget "2PlayerMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FF29571CE0E30800D4C026 /* Debug */,
+				40FF29581CE0E30800D4C026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40FF29591CE0E30800D4C026 /* Build configuration list for PBXNativeTarget "2PlayerMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FF295A1CE0E30800D4C026 /* Debug */,
+				40FF295B1CE0E30800D4C026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40FF295C1CE0E30800D4C026 /* Build configuration list for PBXNativeTarget "2PlayerMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FF295D1CE0E30800D4C026 /* Debug */,
+				40FF295E1CE0E30800D4C026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FF29211CE0E30700D4C026 /* Project object */;
+}
