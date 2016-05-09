@@ -10,4 +10,10 @@
 
 @interface Player : NSObject
 
+@property (strong,nonatomic) NSString *name;
+@property int numberOfLives;
+@property int score;
+
+- (instancetype)initWithName : (NSString*) name;
+
 @end

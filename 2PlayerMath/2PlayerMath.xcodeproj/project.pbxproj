@@ -16,6 +16,8 @@
 		40FF29471CE0E30800D4C026 /* _PlayerMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29461CE0E30800D4C026 /* _PlayerMathTests.m */; };
 		40FF29521CE0E30800D4C026 /* _PlayerMathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29511CE0E30800D4C026 /* _PlayerMathUITests.m */; };
 		40FF29611CE0E80D00D4C026 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29601CE0E80D00D4C026 /* Player.m */; };
+		40FF29671CE11FAD00D4C026 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF29661CE11FAD00D4C026 /* GameModel.m */; };
+		40FF296F1CE149AD00D4C026 /* EndGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF296E1CE149AD00D4C026 /* EndGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		40FF29531CE0E30800D4C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40FF295F1CE0E80D00D4C026 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		40FF29601CE0E80D00D4C026 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		40FF29651CE11FAD00D4C026 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		40FF29661CE11FAD00D4C026 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		40FF296D1CE149AD00D4C026 /* EndGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGameViewController.h; sourceTree = "<group>"; };
+		40FF296E1CE149AD00D4C026 /* EndGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +112,13 @@
 			children = (
 				40FF292F1CE0E30700D4C026 /* AppDelegate.h */,
 				40FF295F1CE0E80D00D4C026 /* Player.h */,
+				40FF29651CE11FAD00D4C026 /* GameModel.h */,
+				40FF29661CE11FAD00D4C026 /* GameModel.m */,
 				40FF29601CE0E80D00D4C026 /* Player.m */,
 				40FF29301CE0E30700D4C026 /* AppDelegate.m */,
 				40FF29321CE0E30700D4C026 /* ViewController.h */,
+				40FF296D1CE149AD00D4C026 /* EndGameViewController.h */,
+				40FF296E1CE149AD00D4C026 /* EndGameViewController.m */,
 				40FF29331CE0E30800D4C026 /* ViewController.m */,
 				40FF29351CE0E30800D4C026 /* Main.storyboard */,
 				40FF29381CE0E30800D4C026 /* Assets.xcassets */,
@@ -207,6 +217,11 @@
 		40FF29211CE0E30700D4C026 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					2,
+					3,
+					4,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Krzysztof Kopytek";
 				TargetAttributes = {
@@ -277,7 +292,9 @@
 			files = (
 				40FF29611CE0E80D00D4C026 /* Player.m in Sources */,
 				40FF29341CE0E30800D4C026 /* ViewController.m in Sources */,
+				40FF29671CE11FAD00D4C026 /* GameModel.m in Sources */,
 				40FF29311CE0E30700D4C026 /* AppDelegate.m in Sources */,
+				40FF296F1CE149AD00D4C026 /* EndGameViewController.m in Sources */,
 				40FF292E1CE0E30700D4C026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
